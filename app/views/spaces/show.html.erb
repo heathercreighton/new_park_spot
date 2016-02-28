@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @space.user_id %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @space.address %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @space.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @space.long %>
+</p>
+
+<p>
+  <strong>Open:</strong>
+  <%= @space.open %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @space.start %>
+</p>
+
+<p>
+  <strong>End:</strong>
+  <%= @space.end %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @space.price %>
+</p>
+
+<%= link_to 'Edit', edit_space_path(@space) %> |
+<%= link_to 'Back', spaces_path %>
